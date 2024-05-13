@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import Web3 from "web3";
-import metamask from "./Asset/metamask-icon.png";
+import metamask from "../Asset/metamask-icon.png";
 
 const MetaMask = () => {
   const [web3, setWeb3] = useState(null);

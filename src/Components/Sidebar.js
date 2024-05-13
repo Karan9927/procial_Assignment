@@ -75,7 +75,7 @@ const Sidebar = () => {
             <div
               className={`${
                 isOpen ? "" : "p-10"
-              }flex items-center hover:bg-[#333333] rounded-md cursor-pointer transition-all ease-in-out p-2 px-7 text-lg gap-5`}
+              }flex items-center hover:bg-[#333333] rounded-md cursor-pointer transition-all ease-in-out p-2 px-7 text-md gap-5`}
             >
               <NavLink
                 className="flex items-center gap-5"
@@ -86,7 +86,7 @@ const Sidebar = () => {
                 <span className={`${isOpen ? "block" : "hidden"}`}>Home</span>
               </NavLink>
             </div>
-            <div className="flex items-center hover:bg-[#333333] rounded-md cursor-pointer transition-all ease-in-out p-2 px-7 text-lg gap-5">
+            <div className="flex items-center hover:bg-[#333333] rounded-md cursor-pointer transition-all ease-in-out p-2 px-7 text-md gap-5">
               <NavLink
                 className="flex items-center gap-5"
                 to={"/Organization"}
@@ -98,7 +98,7 @@ const Sidebar = () => {
                 </span>
               </NavLink>
             </div>
-            <div className="flex items-center hover:bg-[#333333] rounded-md cursor-pointer transition-all ease-in-out px-7 p-2 text-lg gap-5">
+            <div className="flex items-center hover:bg-[#333333] rounded-md cursor-pointer transition-all ease-in-out px-7 p-2 text-md gap-5">
               <NavLink
                 className="flex items-center gap-5"
                 to={"/Assets"}
@@ -108,7 +108,7 @@ const Sidebar = () => {
                 <span className={`${isOpen ? "block" : "hidden"}`}>Assets</span>
               </NavLink>
             </div>
-            <div className="flex items-center hover:bg-[#333333] rounded-md cursor-pointer transition-all ease-in-out px-7 p-2 text-lg gap-5">
+            <div className="flex items-center hover:bg-[#333333] rounded-md cursor-pointer transition-all ease-in-out px-7 p-2 text-md gap-5">
               <NavLink
                 className="flex items-center gap-5"
                 to={"/trade"}
@@ -118,7 +118,7 @@ const Sidebar = () => {
                 <span className={`${isOpen ? "block" : "hidden"}`}>Trade</span>
               </NavLink>
             </div>
-            <div className="flex items-center hover:bg-[#333333] rounded-md cursor-pointer transition-all ease-in-out px-7 p-2 text-lg gap-5">
+            <div className="flex items-center hover:bg-[#333333] rounded-md cursor-pointer transition-all ease-in-out px-7 p-2 text-md gap-5">
               <NavLink
                 className="flex items-center gap-5"
                 to={"/History"}
@@ -130,7 +130,7 @@ const Sidebar = () => {
                 </span>
               </NavLink>
             </div>
-            <div className="flex items-center hover:bg-[#333333] rounded-md cursor-pointer transition-all ease-in-out px-7 p-2 text-lg gap-5">
+            <div className="flex items-center hover:bg-[#333333] rounded-md cursor-pointer transition-all ease-in-out px-7 p-2 text-md gap-5">
               <NavLink
                 className="flex items-center gap-5"
                 to={"/Wallet"}
@@ -142,21 +142,21 @@ const Sidebar = () => {
             </div>
           </div>
         </div>
-        <div className={`text-white mt-[100px] ${isOpen ? "" : "mt-[74px]"}`}>
+        <div className={`text-white mt-[18.5px] ${isOpen ? "" : "mt-[74px]"}`}>
           <div
             className={`flex flex-col text-white ${isOpen ? "" : "gap-4 my-8"}`}
           >
-            <div className="flex items-center hover:bg-[#333333] rounded-md cursor-pointer transition-all ease-in-out px-7 p-2 text-lg gap-5">
+            <div className="flex items-center hover:bg-[#333333] rounded-md cursor-pointer transition-all ease-in-out px-7 p-2 text-md gap-5">
               <MdOutlineNotificationsNone />{" "}
               <span className={`${isOpen ? "block" : "hidden"}`}>
                 Notifications
               </span>
             </div>
-            <div className="flex items-center hover:bg-[#333333] rounded-md cursor-pointer transition-all ease-in-out px-7 p-2 text-lg gap-5">
+            <div className="flex items-center hover:bg-[#333333] rounded-md cursor-pointer transition-all ease-in-out px-7 p-2 text-md gap-5">
               <FaRegQuestionCircle />{" "}
               <span className={`${isOpen ? "block" : "hidden"}`}>Support</span>
             </div>
-            <div className="flex items-center hover:bg-[#333333] rounded-md cursor-pointer transition-all ease-in-out px-7 p-2 text-lg gap-5">
+            <div className="flex items-center hover:bg-[#333333] rounded-md cursor-pointer transition-all ease-in-out px-7 p-2 text-md gap-5">
               <IoSettingsOutline />{" "}
               <span className={`${isOpen ? "block" : "hidden"}`}>Settings</span>
             </div>

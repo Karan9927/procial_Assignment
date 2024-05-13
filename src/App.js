@@ -1,12 +1,12 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
-import Main from "./Main";
-import Sidebar from "./Sidebar";
-import Organization from "./Organization";
-import Assets from "./Assets";
-import Trade from "./Trade";
-import History from "./History";
-import Wallet from "./Wallet";
+import Main from "./Pages/Main";
+import Sidebar from "./Components/Sidebar";
+import Organization from "./Pages/Organization";
+import Assets from "./Pages/Assets";
+import Trade from "./Pages/Trade";
+import History from "./Pages/History";
+import Wallet from "./Pages/Wallet";
 
 function App() {
   return (

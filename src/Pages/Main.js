@@ -1,8 +1,8 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
-import LineGraph from "./LineGraph";
-import MetaMask from "./MetaMask";
-import "./App.css";
+import LineGraph from "../Components/LineGraph";
+import MetaMask from "../Components/MetaMask";
+import "../App.css";
 
 const Main = () => {
   const [currencyData, setCurrencyData] = useState();
